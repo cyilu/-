@@ -30,3 +30,61 @@
           3、混合精度计算apex
           
 收获    ：经反复消融实验，发现影响性能的有以下几点：1、图片的插值函数；2、Batchsize；3、图片的扭曲增强；4、对于多块GPU，同步BatchNormalization；5、图片resize缩放的范围
+
+如不能显示图片，使用如下方法：
+
+在C:\Windows\System32\drivers\etc\hosts中加入：
+
+          # GitHub Start 
+          140.82.113.3      github.com
+
+          140.82.114.20     gist.github.com
+
+          151.101.184.133    assets-cdn.github.com
+
+          151.101.184.133    raw.githubusercontent.com
+
+          151.101.184.133    gist.githubusercontent.com
+
+          151.101.184.133    cloud.githubusercontent.com
+
+          151.101.184.133    camo.githubusercontent.com
+
+          151.101.184.133    avatars0.githubusercontent.com
+
+          199.232.68.133     avatars0.githubusercontent.com
+
+          199.232.28.133     avatars1.githubusercontent.com
+
+          151.101.184.133    avatars1.githubusercontent.com
+
+          151.101.184.133    avatars2.githubusercontent.com
+
+          199.232.28.133     avatars2.githubusercontent.com
+
+          151.101.184.133    avatars3.githubusercontent.com
+
+          199.232.68.133     avatars3.githubusercontent.com
+
+          151.101.184.133    avatars4.githubusercontent.com
+
+          199.232.68.133     avatars4.githubusercontent.com
+
+          151.101.184.133    avatars5.githubusercontent.com
+
+          199.232.68.133     avatars5.githubusercontent.com
+
+          151.101.184.133    avatars6.githubusercontent.com
+
+          199.232.68.133     avatars6.githubusercontent.com
+
+          151.101.184.133    avatars7.githubusercontent.com
+
+          199.232.68.133     avatars7.githubusercontent.com
+
+          151.101.184.133    avatars8.githubusercontent.com
+
+          199.232.68.133     avatars8.githubusercontent.com
+
+          # GitHub End
+来源：CSDN:https://blog.csdn.net/qq_38232598/article/details/91346392
